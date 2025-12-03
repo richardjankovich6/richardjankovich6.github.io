@@ -1,0 +1,84 @@
+/* --------- Base --------- */
+:root {
+  --bg: #0e0e0e;
+  --bg-secondary: #161616;
+  --text: #e0e0e0;
+  --text-muted: #999;
+  --accent: #4cc2ff;     /* Change this for new accent color */
+  --card-bg: #1c1c1c;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Inter", Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* --------- Header --------- */
+header {
+  background: var(--bg-secondary);
+  padding: 15px 30px;
+  border-bottom: 1px solid #222;
+}
+
+nav a {
+  color: var(--text);
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: var(--accent);
+}
+
+/* --------- Layout --------- */
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  background: var(--card-bg);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+/* --------- Typography --------- */
+h1, h2, h3, h4 {
+  color: white;
+  margin-top: 0;
+}
+
+a {
+  color: var(--accent);
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+/* --------- Footer --------- */
+footer {
+  color: var(--text-muted);
+  text-align: center;
+  padding: 30px;
+}
+
+/* --------- Project List Page --------- */
+.project-list {
+  list-style: none;
+  padding: 0;
+}
+
+.project-list li {
+  background: var(--bg-secondary);
+  margin: 12px 0;
+  padding: 15px 20px;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.project-list li:hover {
+  background: #202020;
+}
