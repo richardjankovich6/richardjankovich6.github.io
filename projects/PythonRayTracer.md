@@ -1,7 +1,7 @@
 ---
 layout: project
-title: Dragon Kisser
-engine: Unreal Engine 5
+title: Python RayTracer
+engine: Python
 year: 2025
 video: ABC123XYZ   # YouTube ID
 ---
