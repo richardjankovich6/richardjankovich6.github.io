@@ -22,25 +22,66 @@
                 <h3>Dragon Kisser | Unreal Engine</h3>
                 <img src="images/DragonKisserHeader.jpg">
                 <p class="role">My Roles: Engineer | Architect | DevOps</p>
-                <p>Dragon Kisser is the 2026 capstone game for the Animation department at Brigham Young University.
-                    I worked on this project from April of 2025 to August 2026.</p>
+                <p>
+                    Dragon Kisser is the 2026 capstone game for the Animation department at Brigham Young University.
+                    I worked on this project from April of 2025 to August 2026.
+                </p>
                 <a href="https://store.steampowered.com/app/4681880/Dragon_Kisser/" target="_blank" class="play-btn">Play now on Steam</a>
+
+                <h4>Camera</h4>
+                <p>
+                    I designed the modular camera system uses Unreal Engine's Camera Manager and Camera Modifiers.
+                    The camera manager handles normal camera movement following the controller rotation.
+                    It also maintains distance from the player character and changes the pitch and height of the camera during jump animations. 
+                </p>
+                <p>
+                    The 
+                    <a href="https://drive.google.com/file/d/1dk1ibBtqUIm0TX3sV9cLz5eZSn6xv9cl/view?usp=sharing" target="_blank" class="play-btn">lock on modifier</a>
+                    keeps the player and boss always on screen.
+                </p>
+                <p>
+                    The 
+                    <a href="https://drive.google.com/file/d/1RPRm11502rVXKM0uXqdP48hMB57X1W3S/view?usp=sharing" target="_blank" class="play-btn">Dolly Zoom modifier</a>
+                    does a Dolly ooom for the dance minigame.
+                </p>
+                <p>
+                    The 
+                    <a href="https://drive.google.com/file/d/16oKu9TcuKRKLJCdoWPKpNh8HqVtPHtu8/view?usp=sharing" target="_blank" class="play-btn">CPR modifier</a>
+                    raises the camera and decreases its pitch dring the resuscitation minigame.
+                </p>
+
+                <h4>Player Jump</h4>
+                <p>
+                    I also designed and implemented the player jump with Unreal Engines UCharacterMovementComponent in C++.
+                    It is easily modifiable, based on a float curve.
+                    The jump follows the curve, which can be edited to fine tune the height, speed, time, and overall feel of the jump. 
+                </p>
+
+                <h4>Card System</h4>
+                <p>
+                    The card system displays the early development movement of the player character and boss NPC.
+                    The team artists drew GIFs and poses, which the card system then swaps between to showcase early animations and positioning of characters.
+                    <img src="images/DragonKisserCardSystem.png">
+                </p>
             </div>
 
             <div class="Crayon Collector Robot" data-category="OpenGL">
                 <h3>Crayon Collector Robot | OpenGL</h3>
                 <img src="images/CrayCollectorRobot.png">
-                <p>This was a personal project of mine to learn how to use the OpenGl API. 
+                <p>
+                    This was a personal project of mine to learn how to use the OpenGl API. 
                     I made a simple game where a robot collects crayons scattered on the ground. Programmed by me, using 
                     <a href="https://github.com/Polytonic/Glitter" target="_blank" class="play-btn">Glitter</a>
-                    as a starting point.</p>
+                    as a starting point.
+                </p>
                 <a href="https://github.com/richardjankovich6/CrayonCollectorRobot" target="_blank" class="play-btn">View Repo</a>
             </div>
 
             <div class="Python Raytracer" data-category="OpenGL">
                 <h3>Python Raytracer | Python</h3>
                 <img src="images/RaytracedScene.jpg">
-                <p>I had to make a raytracer for a graphics class.
+                <p>
+                    I had to make a raytracer for a graphics class.
                     After not being able to solve some interesting miss bihavior by C++ string streams I decided I'd just do it in python.
                     It may or may not have been a mistake, but it does run accurately.
                     </p>
@@ -52,7 +93,8 @@
             <div class="Dragn Labs" data-category="Unreal Engine">
                 <h2>Dragn Labs</h2>
                 <!-- <img src="projects/DragonKisserHeader.jpg"> -->
-                <p>I spent three years working at 
+                <p>
+                    I spent three years working at 
                     <a href="https://dragn.ai/" target="_blank" class="play-btn">Dragn Labs</a>
                     integrating transformer based AI models with video games.
                 </p>
@@ -63,6 +105,32 @@
                     Other Researchers built an extensive back end in python that used generative AI to direct the lives of NPCs.
                     I built a threadsafe connection between the front and back ends, enabling the gameplay to be influenced by the input of LLMs.
                 </p>
+                <!-- <a href="https://drive.google.com/file/d/1HVYqH2bB_9Fnw4rudT1yHZDHQ_31VqI9/view?usp=sharing" target="_blank" class="play-btn">Video clip of gameplay</a> -->
+            </div>
+        </section>
+
+        <section>
+            <div class="Ongoing Projects" data-category="">
+                <h2>Ongoing Projects</h2>                
+                <h3>Space Sim rogue-like | Godot</h3>
+                <p>
+                    I'm building a space sim for a couple of reasons. 
+                    First, because I like space sims, and I think it'd be fun to make one.
+                    Second, because I want to learn Godot, and making a project is the best way to learn a game engine.
+                    To see my progress you can go to the repo 
+                    <a href="https://github.com/richardjankovich6/SpaceRogueLike" target="_blank" class="play-btn">here</a>
+                    .
+                </p>
+
+                <h3>RayTracer | C++ </h3>
+                <p>
+                    After having made my python raytracer, I decided it really should have been written in C++.
+                    <a href="https://github.com/richardjankovich6/RayTracer" target="_blank" class="play-btn">Here</a>
+                    is that version of the project.
+                    In the future I hope to make more versions of this project in Rust and other languages.
+                    I'm also interested in adding multi threading in order to render complicated scenes faster.
+                </p>
+
                 <!-- <a href="https://drive.google.com/file/d/1HVYqH2bB_9Fnw4rudT1yHZDHQ_31VqI9/view?usp=sharing" target="_blank" class="play-btn">Video clip of gameplay</a> -->
             </div>
         </section>
