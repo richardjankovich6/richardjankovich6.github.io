@@ -1,1 +1,0 @@
-# richardjankovich6.github.io

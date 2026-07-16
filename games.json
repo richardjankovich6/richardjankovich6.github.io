@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Dragon Kisser",
+    "description": "The rooster Domingo attempts to charm the dragon Luciana.",
+    "link": "https://store.steampowered.com/app/4681880/Dragon_Kisser/",
+    "image": "projects/DragonKisserHeader.jpg",
+    "tags": ["Casual", "Rythm", "Daring Sim"]
+  },
+  {
+    "name": "Dragn Town",
+    "description": "An open-world RPG where the trees talk back.",
+    "link": "https://itch.io/game245",
+    "tags": ["RPG", "Open World"]
+  }
+]
